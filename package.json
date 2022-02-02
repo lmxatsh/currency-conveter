@@ -1,0 +1,16 @@
+{
+    "name": "currency-conveter",
+    "packageManager": "yarn@3.1.1",
+    "type": "module",
+    "scripts": {
+        "lint": "eslint --ext .js src",
+        "dev": "node ./src/index.js"
+    },
+    "devDependencies": {
+        "eslint": "^8.8.0",
+        "prettier": "^2.5.1"
+    },
+    "dependencies": {
+        "axios": "^0.25.0"
+    }
+}
